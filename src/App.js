@@ -9,21 +9,20 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 	<Button>Test Button</Button>
-	  
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+	<div className="App">
+	  <h1>Hello World!</h1>
+	</div>
       </header>
     </div>
   );
+}
+
+
+function Logo() {
+  return (
+    <h1>Raj Music App</h1>
+  )
+
 }
 
 export default App;
