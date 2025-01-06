@@ -1,5 +1,5 @@
 export default function Title1() {
    return (
-      <h1>Yello!</h1>
+      <h1 style={{color: "yellow"}} >Yello!</h1>
    )
 }
