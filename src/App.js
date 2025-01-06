@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-//import './App.css';
+import './App.css';
 import {
 	Button,
 	Container,
@@ -31,6 +31,12 @@ function App() {
 	    <div class = "col">
 	      <p>Placeholder media player</p>
 	    </div>
+	  </div>
+	  <div class="row">
+             <p>Placeholder About</p>
+	  </div>
+	  <div class="row">
+             <p>Placeholder Contact</p>
 	  </div>
 	  <div class="row">
 	    <p>About</p>
