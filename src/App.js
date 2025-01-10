@@ -3,6 +3,7 @@ import './App.css';
 import {
 	Button,
 	Container,
+	ButtonGroup,
 } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -62,8 +63,19 @@ function App() {
 	        </div>
 	      </div>
 	    </div>
+
+	  {/* Media player section */}
+
 	    <div class = "col-2">
-	      <p>Placeholder media player</p>
+	      <div class = "centercontent">
+	      </div>
+	  	<ButtonGroup aria-label = "Placeholder example">
+	  	   <Button variant="secondary">Rewind</Button>
+	  	   <Button variant="secondary">Stop</Button>
+	  	   <Button variant="secondary">Play</Button>
+	  	   <Button variant="secondary">Pause</Button>
+	  	   <Button variant="secondary">Forward</Button>
+	  	</ButtonGroup>
 	    </div>
 	  </div>
 	  <div class="row">
