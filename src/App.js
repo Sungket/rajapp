@@ -4,6 +4,7 @@ import {
 	Button,
 	Container,
 	ButtonGroup,
+	Card,
 } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -69,13 +70,17 @@ function App() {
 	    <div class = "col-2">
 	      <div class = "centercontent">
 	      </div>
-	  	<ButtonGroup aria-label = "Placeholder example">
-	  	   <Button variant="secondary">Rewind</Button>
-	  	   <Button variant="secondary">Stop</Button>
-	  	   <Button variant="secondary">Play</Button>
-	  	   <Button variant="secondary">Pause</Button>
-	  	   <Button variant="secondary">Forward</Button>
-	  	</ButtonGroup>
+	  	<div class = "card">
+	  	  <div class ="card-body">
+	  	    <ButtonGroup aria-label = "Placeholder example">
+	  	       <Button variant="secondary">Rewind</Button>
+	  	       <Button variant="secondary">Stop</Button>
+	  	       <Button variant="secondary">Play</Button>
+	  	       <Button variant="secondary">Pause</Button>
+	  	       <Button variant="secondary">Forward</Button>
+	  	    </ButtonGroup>
+	  	  </div>
+	  	</div>
 	    </div>
 	  </div>
 	  <div class="row">
