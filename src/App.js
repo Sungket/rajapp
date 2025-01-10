@@ -19,7 +19,7 @@ function App() {
 	<div class="container">
 	  <div class="row">
 	    <div class="col">
-	      <p style={titleStyle} >Raj's Music App</p>
+	      <p style={titleStyle} >Raj's Non Copyright Music</p>
 	    </div>
 	    <div class="col">
 	      <p>Listen</p>
@@ -27,10 +27,17 @@ function App() {
 	  </div>
 	  <div class="row">
 	    <div class="col-3">
-	      <p>Placeholder about, contact</p>
+	      <ul class="list-group">
+		<li class = "list-group-item">About</li>
+	        <li class = "list-group-item">Work with me</li>
+	        <li class = "list-group-item">Credits</li>
+	      </ul>
 	    </div>
 	    <div class = "col-7">
 	      <div class = "row">
+
+	  {/* Song selection section. Songs will be able to be uploaded and then it will appear on the list dynamically */}
+
 	        <div class = "col">
 	          <div class = "card">
 	            <div class = "card-header">Name of Song</div>
@@ -54,7 +61,6 @@ function App() {
 	  	  </div>
 	        </div>
 	      </div>
-	      <p>Placeholder media library</p>
 	    </div>
 	    <div class = "col-2">
 	      <p>Placeholder media player</p>
