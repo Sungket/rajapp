@@ -83,16 +83,6 @@ function App() {
 	  	</div>
 	    </div>
 	  </div>
-	  <div class="row">
-             <p>Placeholder About</p>
-	  </div>
-	  <div class="row">
-             <p>Placeholder Contact</p>
-	  </div>
-	  <div class="row">
-	    <p>About</p>
-	    <p>Contact</p>
-	  </div>
 	</div> 
     </div>
   );
