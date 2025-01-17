@@ -5,6 +5,7 @@ import {
 	Container,
 	ButtonGroup,
 	Card,
+	Form,
 } from 'react-bootstrap';
 import Alert from 'react-bootstrap/Alert';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -86,6 +87,22 @@ function App() {
 	  <section id="contact">
 	    <div class = "row">
 	      <p>Message Me</p>
+
+	      <Form>
+	  	<Form.Group className="mb-3" controlId="formBasicName">
+		  <Form.Control type="name" placeholder="Name" />
+	  	</Form.Group>
+		<Form.Group className="mb-3" controlId="formBasicEmail">
+		  <Form.Control type="email" placeholder="Enter Email" />
+	  	</Form.Group>
+	  	<Form.Group className="mb-3" controlId="formBasicMessage">
+	  	  <Form.Control type="message" placeholder="Message" />
+	  	</Form.Group>
+	  	<Button variant="primary" type="submit">
+	  	  Submit
+	  	</Button>
+	      </Form>
+
 	      <form id = "contactForm" action = "forms/contact.php">
 	        <div class = "form-group">
 	          <input type="name" class="form-control" id="inputName" placeholder="Name"/>
