@@ -89,7 +89,7 @@ function App() {
 	      <p>Message Me</p>
 
 	      <Form>
-	  	<Form.Group className="mb-3" controlId="formBasicName">
+	  	<Form.Group className="mb-3" controlId="formBasicName" action="forms/contact.php">
 		  <Form.Control type="name" placeholder="Name" />
 	  	</Form.Group>
 		<Form.Group className="mb-3" controlId="formBasicEmail">
