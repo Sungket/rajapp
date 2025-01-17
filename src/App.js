@@ -82,6 +82,23 @@ function App() {
 	  	  </div>
 	  	</div>
 	    </div>
+
+	  <section id="contact">
+	    <div class = "row">
+	      <p>Message Me</p>
+	      <form id = "contactForm" action = "forms/contact.php">
+	        <div class = "form-group">
+	          <input type="name" class="form-control" id="inputName" placeholder="Name"/>
+	        </div>
+	        <div class = "form-group">
+	  	  <input type = "email" class = "form-control" id = "inputEmail" aria-describedby="emailHelp" placeholder="Enter email"/>
+	        </div>
+	        <div class = "form-group">
+	  	  <input type="message" class="form-control" id="inputMessage" aria-describedby="message" placeholder="Type your message"/>
+	        </div>
+	      </form>
+	    </div>
+	  </section>
 	  </div>
 	</div> 
     </div>
